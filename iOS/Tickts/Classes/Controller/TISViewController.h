@@ -8,12 +8,7 @@
 
 #import <UIKit/UIKit.h>
 
-@class LSButton;
-
 @interface TISViewController : UIViewController
 
-@property (weak, nonatomic) IBOutlet LSButton *loginButton;
-@property (weak, nonatomic) IBOutlet LSButton *registerButton;
-@property (weak, nonatomic) IBOutlet LSButton *connectButton;
 
 @end

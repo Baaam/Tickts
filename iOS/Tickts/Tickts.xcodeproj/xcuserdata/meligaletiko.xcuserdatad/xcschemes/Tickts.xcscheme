@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Scheme
-   LastUpgradeVersion = "0510"
+   LastUpgradeVersion = "0600"
    version = "1.3">
    <BuildAction
       parallelizeBuildables = "YES"
@@ -14,9 +14,23 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "1BCAC9DB196E067200130DD9"
+               BlueprintIdentifier = "1B86A1AA19E493D800992C20"
                BuildableName = "Tickts.app"
                BlueprintName = "Tickts"
+               ReferencedContainer = "container:Tickts.xcodeproj">
+            </BuildableReference>
+         </BuildActionEntry>
+         <BuildActionEntry
+            buildForTesting = "YES"
+            buildForRunning = "YES"
+            buildForProfiling = "NO"
+            buildForArchiving = "NO"
+            buildForAnalyzing = "YES">
+            <BuildableReference
+               BuildableIdentifier = "primary"
+               BlueprintIdentifier = "1B86A1C319E493D800992C20"
+               BuildableName = "TicktsTests.xctest"
+               BlueprintName = "TicktsTests"
                ReferencedContainer = "container:Tickts.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
@@ -32,7 +46,7 @@
             skipped = "NO">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "1BCAC9FC196E067300130DD9"
+               BlueprintIdentifier = "1B86A1C319E493D800992C20"
                BuildableName = "TicktsTests.xctest"
                BlueprintName = "TicktsTests"
                ReferencedContainer = "container:Tickts.xcodeproj">
@@ -42,7 +56,7 @@
       <MacroExpansion>
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "1BCAC9DB196E067200130DD9"
+            BlueprintIdentifier = "1B86A1AA19E493D800992C20"
             BuildableName = "Tickts.app"
             BlueprintName = "Tickts"
             ReferencedContainer = "container:Tickts.xcodeproj">
@@ -61,7 +75,7 @@
       <BuildableProductRunnable>
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "1BCAC9DB196E067200130DD9"
+            BlueprintIdentifier = "1B86A1AA19E493D800992C20"
             BuildableName = "Tickts.app"
             BlueprintName = "Tickts"
             ReferencedContainer = "container:Tickts.xcodeproj">
@@ -79,7 +93,7 @@
       <BuildableProductRunnable>
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "1BCAC9DB196E067200130DD9"
+            BlueprintIdentifier = "1B86A1AA19E493D800992C20"
             BuildableName = "Tickts.app"
             BlueprintName = "Tickts"
             ReferencedContainer = "container:Tickts.xcodeproj">

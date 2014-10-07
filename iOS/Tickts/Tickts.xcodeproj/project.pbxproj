@@ -7,246 +7,225 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		1BBF3D3B1981A7330078551F /* LSButton.m in Sources */ = {isa = PBXBuildFile; fileRef = 1BBF3D3A1981A7330078551F /* LSButton.m */; };
-		1BCAC9E0196E067200130DD9 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1BCAC9DF196E067200130DD9 /* Foundation.framework */; };
-		1BCAC9E2196E067200130DD9 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1BCAC9E1196E067200130DD9 /* CoreGraphics.framework */; };
-		1BCAC9E4196E067200130DD9 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1BCAC9E3196E067200130DD9 /* UIKit.framework */; };
-		1BCAC9EA196E067200130DD9 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 1BCAC9E8196E067200130DD9 /* InfoPlist.strings */; };
-		1BCAC9EC196E067200130DD9 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 1BCAC9EB196E067200130DD9 /* main.m */; };
-		1BCAC9F0196E067200130DD9 /* TISAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 1BCAC9EF196E067200130DD9 /* TISAppDelegate.m */; };
-		1BCAC9F3196E067200130DD9 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1BCAC9F1196E067200130DD9 /* Main.storyboard */; };
-		1BCAC9F6196E067200130DD9 /* TISViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1BCAC9F5196E067200130DD9 /* TISViewController.m */; };
-		1BCAC9F8196E067200130DD9 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1BCAC9F7196E067200130DD9 /* Images.xcassets */; };
-		1BCAC9FF196E067300130DD9 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1BCAC9FE196E067300130DD9 /* XCTest.framework */; };
-		1BCACA00196E067300130DD9 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1BCAC9DF196E067200130DD9 /* Foundation.framework */; };
-		1BCACA01196E067300130DD9 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1BCAC9E3196E067200130DD9 /* UIKit.framework */; };
-		1BCACA09196E067300130DD9 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 1BCACA07196E067300130DD9 /* InfoPlist.strings */; };
-		1BCACA0B196E067300130DD9 /* TicktsTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 1BCACA0A196E067300130DD9 /* TicktsTests.m */; };
-		1BCACA21196E09C700130DD9 /* UIColor+HexToRgb.m in Sources */ = {isa = PBXBuildFile; fileRef = 1BCACA20196E09C700130DD9 /* UIColor+HexToRgb.m */; };
+		1B3AB08D19E4987E008FFDF3 /* BTIAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 1B3AB06F19E4987E008FFDF3 /* BTIAppDelegate.m */; };
+		1B3AB08E19E4987E008FFDF3 /* UIColor+HexToRgb.m in Sources */ = {isa = PBXBuildFile; fileRef = 1B3AB07419E4987E008FFDF3 /* UIColor+HexToRgb.m */; };
+		1B3AB08F19E4987E008FFDF3 /* BTIViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1B3AB07919E4987E008FFDF3 /* BTIViewController.m */; };
+		1B3AB09019E4987E008FFDF3 /* TISViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1B3AB07B19E4987E008FFDF3 /* TISViewController.m */; };
+		1B3AB09119E4987E008FFDF3 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1B3AB07F19E4987E008FFDF3 /* Images.xcassets */; };
+		1B3AB09219E4987E008FFDF3 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 1B3AB08119E4987E008FFDF3 /* InfoPlist.strings */; };
+		1B3AB09419E4987E008FFDF3 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 1B3AB08519E4987E008FFDF3 /* main.m */; };
+		1B3AB09519E4987E008FFDF3 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1B3AB08819E4987E008FFDF3 /* LaunchScreen.xib */; };
+		1B3AB09619E4987E008FFDF3 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1B3AB08919E4987E008FFDF3 /* Main.storyboard */; };
+		1B3AB09D19E49A0B008FFDF3 /* TicktsTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 1B3AB09B19E49A0B008FFDF3 /* TicktsTests.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		1BCACA02196E067300130DD9 /* PBXContainerItemProxy */ = {
+		1B86A1C519E493D800992C20 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
-			containerPortal = 1BCAC9D4196E067200130DD9 /* Project object */;
+			containerPortal = 1B86A1A319E493D800992C20 /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = 1BCAC9DB196E067200130DD9;
+			remoteGlobalIDString = 1B86A1AA19E493D800992C20;
 			remoteInfo = Tickts;
 		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		1BBF3D391981A7330078551F /* LSButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LSButton.h; sourceTree = "<group>"; };
-		1BBF3D3A1981A7330078551F /* LSButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LSButton.m; sourceTree = "<group>"; };
-		1BCAC9DC196E067200130DD9 /* Tickts.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Tickts.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		1BCAC9DF196E067200130DD9 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
-		1BCAC9E1196E067200130DD9 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
-		1BCAC9E3196E067200130DD9 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
-		1BCAC9E7196E067200130DD9 /* Tickts-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Tickts-Info.plist"; sourceTree = "<group>"; };
-		1BCAC9E9196E067200130DD9 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
-		1BCAC9EB196E067200130DD9 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		1BCAC9ED196E067200130DD9 /* Tickts-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Tickts-Prefix.pch"; sourceTree = "<group>"; };
-		1BCAC9EE196E067200130DD9 /* TISAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TISAppDelegate.h; sourceTree = "<group>"; };
-		1BCAC9EF196E067200130DD9 /* TISAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TISAppDelegate.m; sourceTree = "<group>"; };
-		1BCAC9F2196E067200130DD9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		1BCAC9F4196E067200130DD9 /* TISViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TISViewController.h; sourceTree = "<group>"; };
-		1BCAC9F5196E067200130DD9 /* TISViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TISViewController.m; sourceTree = "<group>"; };
-		1BCAC9F7196E067200130DD9 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
-		1BCAC9FD196E067300130DD9 /* TicktsTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TicktsTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		1BCAC9FE196E067300130DD9 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
-		1BCACA06196E067300130DD9 /* TicktsTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "TicktsTests-Info.plist"; sourceTree = "<group>"; };
-		1BCACA08196E067300130DD9 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
-		1BCACA0A196E067300130DD9 /* TicktsTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TicktsTests.m; sourceTree = "<group>"; };
-		1BCACA1A196E083D00130DD9 /* TISColorConstants.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TISColorConstants.h; sourceTree = "<group>"; };
-		1BCACA1F196E09C700130DD9 /* UIColor+HexToRgb.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIColor+HexToRgb.h"; sourceTree = "<group>"; };
-		1BCACA20196E09C700130DD9 /* UIColor+HexToRgb.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIColor+HexToRgb.m"; sourceTree = "<group>"; };
+		1B3AB06E19E4987E008FFDF3 /* BTIAppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BTIAppDelegate.h; sourceTree = "<group>"; };
+		1B3AB06F19E4987E008FFDF3 /* BTIAppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BTIAppDelegate.m; sourceTree = "<group>"; };
+		1B3AB07319E4987E008FFDF3 /* UIColor+HexToRgb.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIColor+HexToRgb.h"; sourceTree = "<group>"; };
+		1B3AB07419E4987E008FFDF3 /* UIColor+HexToRgb.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIColor+HexToRgb.m"; sourceTree = "<group>"; };
+		1B3AB07619E4987E008FFDF3 /* BTIColorConstants.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BTIColorConstants.h; sourceTree = "<group>"; };
+		1B3AB07819E4987E008FFDF3 /* BTIViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BTIViewController.h; sourceTree = "<group>"; };
+		1B3AB07919E4987E008FFDF3 /* BTIViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BTIViewController.m; sourceTree = "<group>"; };
+		1B3AB07A19E4987E008FFDF3 /* TISViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TISViewController.h; sourceTree = "<group>"; };
+		1B3AB07B19E4987E008FFDF3 /* TISViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TISViewController.m; sourceTree = "<group>"; };
+		1B3AB07F19E4987E008FFDF3 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		1B3AB08219E4987E008FFDF3 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		1B3AB08419E4987E008FFDF3 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1B3AB08519E4987E008FFDF3 /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		1B3AB08619E4987E008FFDF3 /* Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Prefix.pch; sourceTree = "<group>"; };
+		1B3AB08819E4987E008FFDF3 /* LaunchScreen.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = LaunchScreen.xib; sourceTree = "<group>"; };
+		1B3AB08919E4987E008FFDF3 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
+		1B3AB09A19E49A0B008FFDF3 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1B3AB09B19E49A0B008FFDF3 /* TicktsTests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TicktsTests.m; sourceTree = "<group>"; };
+		1B86A1AB19E493D800992C20 /* Tickts.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Tickts.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		1B86A1C419E493D800992C20 /* TicktsTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TicktsTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		1BCAC9D9196E067200130DD9 /* Frameworks */ = {
+		1B86A1A819E493D800992C20 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				1BCAC9E2196E067200130DD9 /* CoreGraphics.framework in Frameworks */,
-				1BCAC9E4196E067200130DD9 /* UIKit.framework in Frameworks */,
-				1BCAC9E0196E067200130DD9 /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		1BCAC9FA196E067300130DD9 /* Frameworks */ = {
+		1B86A1C119E493D800992C20 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				1BCAC9FF196E067300130DD9 /* XCTest.framework in Frameworks */,
-				1BCACA01196E067300130DD9 /* UIKit.framework in Frameworks */,
-				1BCACA00196E067300130DD9 /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		1BBF3D381981A7330078551F /* LongShadowButton */ = {
+		1B3AB06C19E4987E008FFDF3 /* Classes */ = {
 			isa = PBXGroup;
 			children = (
-				1BBF3D391981A7330078551F /* LSButton.h */,
-				1BBF3D3A1981A7330078551F /* LSButton.m */,
+				1B3AB06D19E4987E008FFDF3 /* Application */,
+				1B3AB07019E4987E008FFDF3 /* Commons */,
+				1B3AB07719E4987E008FFDF3 /* Controller */,
+				1B3AB07C19E4987E008FFDF3 /* Model */,
+				1B3AB07D19E4987E008FFDF3 /* View */,
 			);
-			name = LongShadowButton;
-			path = Tickts/LongShadowButton;
+			path = Classes;
 			sourceTree = "<group>";
 		};
-		1BCAC9D3196E067200130DD9 = {
+		1B3AB06D19E4987E008FFDF3 /* Application */ = {
 			isa = PBXGroup;
 			children = (
-				1BCAC9E5196E067200130DD9 /* Tickts */,
-				1BCACA04196E067300130DD9 /* TicktsTests */,
-				1BCAC9DE196E067200130DD9 /* Frameworks */,
-				1BCAC9DD196E067200130DD9 /* Products */,
+				1B3AB06E19E4987E008FFDF3 /* BTIAppDelegate.h */,
+				1B3AB06F19E4987E008FFDF3 /* BTIAppDelegate.m */,
+			);
+			path = Application;
+			sourceTree = "<group>";
+		};
+		1B3AB07019E4987E008FFDF3 /* Commons */ = {
+			isa = PBXGroup;
+			children = (
+				1B3AB07119E4987E008FFDF3 /* Categories */,
+				1B3AB07519E4987E008FFDF3 /* Headers */,
+			);
+			path = Commons;
+			sourceTree = "<group>";
+		};
+		1B3AB07119E4987E008FFDF3 /* Categories */ = {
+			isa = PBXGroup;
+			children = (
+				1B3AB07219E4987E008FFDF3 /* UIColor */,
+			);
+			path = Categories;
+			sourceTree = "<group>";
+		};
+		1B3AB07219E4987E008FFDF3 /* UIColor */ = {
+			isa = PBXGroup;
+			children = (
+				1B3AB07319E4987E008FFDF3 /* UIColor+HexToRgb.h */,
+				1B3AB07419E4987E008FFDF3 /* UIColor+HexToRgb.m */,
+			);
+			path = UIColor;
+			sourceTree = "<group>";
+		};
+		1B3AB07519E4987E008FFDF3 /* Headers */ = {
+			isa = PBXGroup;
+			children = (
+				1B3AB07619E4987E008FFDF3 /* BTIColorConstants.h */,
+			);
+			path = Headers;
+			sourceTree = "<group>";
+		};
+		1B3AB07719E4987E008FFDF3 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				1B3AB07819E4987E008FFDF3 /* BTIViewController.h */,
+				1B3AB07919E4987E008FFDF3 /* BTIViewController.m */,
+				1B3AB07A19E4987E008FFDF3 /* TISViewController.h */,
+				1B3AB07B19E4987E008FFDF3 /* TISViewController.m */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		1B3AB07C19E4987E008FFDF3 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		1B3AB07D19E4987E008FFDF3 /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		1B3AB07E19E4987E008FFDF3 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				1B3AB07F19E4987E008FFDF3 /* Images.xcassets */,
+				1B3AB08019E4987E008FFDF3 /* Language */,
+				1B3AB08319E4987E008FFDF3 /* Support */,
+				1B3AB08719E4987E008FFDF3 /* Views */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		1B3AB08019E4987E008FFDF3 /* Language */ = {
+			isa = PBXGroup;
+			children = (
+				1B3AB08119E4987E008FFDF3 /* InfoPlist.strings */,
+			);
+			path = Language;
+			sourceTree = "<group>";
+		};
+		1B3AB08319E4987E008FFDF3 /* Support */ = {
+			isa = PBXGroup;
+			children = (
+				1B3AB08419E4987E008FFDF3 /* Info.plist */,
+				1B3AB08519E4987E008FFDF3 /* main.m */,
+				1B3AB08619E4987E008FFDF3 /* Prefix.pch */,
+			);
+			path = Support;
+			sourceTree = "<group>";
+		};
+		1B3AB08719E4987E008FFDF3 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				1B3AB08819E4987E008FFDF3 /* LaunchScreen.xib */,
+				1B3AB08919E4987E008FFDF3 /* Main.storyboard */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		1B3AB09919E49A0B008FFDF3 /* Tests */ = {
+			isa = PBXGroup;
+			children = (
+				1B3AB09A19E49A0B008FFDF3 /* Info.plist */,
+				1B3AB09B19E49A0B008FFDF3 /* TicktsTests.m */,
+			);
+			path = Tests;
+			sourceTree = "<group>";
+		};
+		1B86A1A219E493D800992C20 = {
+			isa = PBXGroup;
+			children = (
+				1B3AB06C19E4987E008FFDF3 /* Classes */,
+				1B3AB07E19E4987E008FFDF3 /* Resources */,
+				1B86A1AC19E493D800992C20 /* Products */,
+				1B3AB09919E49A0B008FFDF3 /* Tests */,
 			);
 			sourceTree = "<group>";
 		};
-		1BCAC9DD196E067200130DD9 /* Products */ = {
+		1B86A1AC19E493D800992C20 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				1BCAC9DC196E067200130DD9 /* Tickts.app */,
-				1BCAC9FD196E067300130DD9 /* TicktsTests.xctest */,
+				1B86A1AB19E493D800992C20 /* Tickts.app */,
+				1B86A1C419E493D800992C20 /* TicktsTests.xctest */,
 			);
 			name = Products;
-			sourceTree = "<group>";
-		};
-		1BCAC9DE196E067200130DD9 /* Frameworks */ = {
-			isa = PBXGroup;
-			children = (
-				1BBF3D381981A7330078551F /* LongShadowButton */,
-				1BCAC9DF196E067200130DD9 /* Foundation.framework */,
-				1BCAC9E1196E067200130DD9 /* CoreGraphics.framework */,
-				1BCAC9E3196E067200130DD9 /* UIKit.framework */,
-				1BCAC9FE196E067300130DD9 /* XCTest.framework */,
-			);
-			name = Frameworks;
-			sourceTree = "<group>";
-		};
-		1BCAC9E5196E067200130DD9 /* Tickts */ = {
-			isa = PBXGroup;
-			children = (
-				1BCACA18196E080F00130DD9 /* Common */,
-				1BCACA15196E06C800130DD9 /* Main */,
-				1BCACA16196E06DC00130DD9 /* Model */,
-				1BCACA14196E06BF00130DD9 /* Views */,
-				1BCAC9F7196E067200130DD9 /* Images.xcassets */,
-				1BCAC9E6196E067200130DD9 /* Supporting Files */,
-			);
-			path = Tickts;
-			sourceTree = "<group>";
-		};
-		1BCAC9E6196E067200130DD9 /* Supporting Files */ = {
-			isa = PBXGroup;
-			children = (
-				1BCAC9E7196E067200130DD9 /* Tickts-Info.plist */,
-				1BCAC9E8196E067200130DD9 /* InfoPlist.strings */,
-				1BCAC9EB196E067200130DD9 /* main.m */,
-				1BCAC9ED196E067200130DD9 /* Tickts-Prefix.pch */,
-			);
-			name = "Supporting Files";
-			sourceTree = "<group>";
-		};
-		1BCACA04196E067300130DD9 /* TicktsTests */ = {
-			isa = PBXGroup;
-			children = (
-				1BCACA0A196E067300130DD9 /* TicktsTests.m */,
-				1BCACA05196E067300130DD9 /* Supporting Files */,
-			);
-			path = TicktsTests;
-			sourceTree = "<group>";
-		};
-		1BCACA05196E067300130DD9 /* Supporting Files */ = {
-			isa = PBXGroup;
-			children = (
-				1BCACA06196E067300130DD9 /* TicktsTests-Info.plist */,
-				1BCACA07196E067300130DD9 /* InfoPlist.strings */,
-			);
-			name = "Supporting Files";
-			sourceTree = "<group>";
-		};
-		1BCACA14196E06BF00130DD9 /* Views */ = {
-			isa = PBXGroup;
-			children = (
-				1BCACA17196E06E900130DD9 /* Common */,
-				1BCAC9F1196E067200130DD9 /* Main.storyboard */,
-			);
-			name = Views;
-			sourceTree = "<group>";
-		};
-		1BCACA15196E06C800130DD9 /* Main */ = {
-			isa = PBXGroup;
-			children = (
-				1BCACA19196E081400130DD9 /* Constants */,
-				1BCAC9EE196E067200130DD9 /* TISAppDelegate.h */,
-				1BCAC9EF196E067200130DD9 /* TISAppDelegate.m */,
-			);
-			name = Main;
-			sourceTree = "<group>";
-		};
-		1BCACA16196E06DC00130DD9 /* Model */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			name = Model;
-			sourceTree = "<group>";
-		};
-		1BCACA17196E06E900130DD9 /* Common */ = {
-			isa = PBXGroup;
-			children = (
-				1BCAC9F4196E067200130DD9 /* TISViewController.h */,
-				1BCAC9F5196E067200130DD9 /* TISViewController.m */,
-			);
-			name = Common;
-			sourceTree = "<group>";
-		};
-		1BCACA18196E080F00130DD9 /* Common */ = {
-			isa = PBXGroup;
-			children = (
-				1BCACA1D196E099400130DD9 /* Helpers */,
-			);
-			name = Common;
-			sourceTree = "<group>";
-		};
-		1BCACA19196E081400130DD9 /* Constants */ = {
-			isa = PBXGroup;
-			children = (
-				1BCACA1A196E083D00130DD9 /* TISColorConstants.h */,
-			);
-			name = Constants;
-			sourceTree = "<group>";
-		};
-		1BCACA1D196E099400130DD9 /* Helpers */ = {
-			isa = PBXGroup;
-			children = (
-				1BCACA1E196E099A00130DD9 /* UIColor */,
-			);
-			name = Helpers;
-			sourceTree = "<group>";
-		};
-		1BCACA1E196E099A00130DD9 /* UIColor */ = {
-			isa = PBXGroup;
-			children = (
-				1BCACA1F196E09C700130DD9 /* UIColor+HexToRgb.h */,
-				1BCACA20196E09C700130DD9 /* UIColor+HexToRgb.m */,
-			);
-			name = UIColor;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		1BCAC9DB196E067200130DD9 /* Tickts */ = {
+		1B86A1AA19E493D800992C20 /* Tickts */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 1BCACA0E196E067300130DD9 /* Build configuration list for PBXNativeTarget "Tickts" */;
+			buildConfigurationList = 1B86A1CE19E493D800992C20 /* Build configuration list for PBXNativeTarget "Tickts" */;
 			buildPhases = (
-				1BCAC9D8196E067200130DD9 /* Sources */,
-				1BCAC9D9196E067200130DD9 /* Frameworks */,
-				1BCAC9DA196E067200130DD9 /* Resources */,
+				1B86A1A719E493D800992C20 /* Sources */,
+				1B86A1A819E493D800992C20 /* Frameworks */,
+				1B86A1A919E493D800992C20 /* Resources */,
 			);
 			buildRules = (
 			);
@@ -254,43 +233,47 @@
 			);
 			name = Tickts;
 			productName = Tickts;
-			productReference = 1BCAC9DC196E067200130DD9 /* Tickts.app */;
+			productReference = 1B86A1AB19E493D800992C20 /* Tickts.app */;
 			productType = "com.apple.product-type.application";
 		};
-		1BCAC9FC196E067300130DD9 /* TicktsTests */ = {
+		1B86A1C319E493D800992C20 /* TicktsTests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 1BCACA11196E067300130DD9 /* Build configuration list for PBXNativeTarget "TicktsTests" */;
+			buildConfigurationList = 1B86A1D119E493D800992C20 /* Build configuration list for PBXNativeTarget "TicktsTests" */;
 			buildPhases = (
-				1BCAC9F9196E067300130DD9 /* Sources */,
-				1BCAC9FA196E067300130DD9 /* Frameworks */,
-				1BCAC9FB196E067300130DD9 /* Resources */,
+				1B86A1C019E493D800992C20 /* Sources */,
+				1B86A1C119E493D800992C20 /* Frameworks */,
+				1B86A1C219E493D800992C20 /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				1BCACA03196E067300130DD9 /* PBXTargetDependency */,
+				1B86A1C619E493D800992C20 /* PBXTargetDependency */,
 			);
 			name = TicktsTests;
 			productName = TicktsTests;
-			productReference = 1BCAC9FD196E067300130DD9 /* TicktsTests.xctest */;
+			productReference = 1B86A1C419E493D800992C20 /* TicktsTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
-		1BCAC9D4196E067200130DD9 /* Project object */ = {
+		1B86A1A319E493D800992C20 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
-				CLASSPREFIX = TIS;
-				LastUpgradeCheck = 0510;
-				ORGANIZATIONNAME = meligaletiko;
+				CLASSPREFIX = BTI;
+				LastUpgradeCheck = 0600;
+				ORGANIZATIONNAME = Baaam;
 				TargetAttributes = {
-					1BCAC9FC196E067300130DD9 = {
-						TestTargetID = 1BCAC9DB196E067200130DD9;
+					1B86A1AA19E493D800992C20 = {
+						CreatedOnToolsVersion = 6.0.1;
+					};
+					1B86A1C319E493D800992C20 = {
+						CreatedOnToolsVersion = 6.0.1;
+						TestTargetID = 1B86A1AA19E493D800992C20;
 					};
 				};
 			};
-			buildConfigurationList = 1BCAC9D7196E067200130DD9 /* Build configuration list for PBXProject "Tickts" */;
+			buildConfigurationList = 1B86A1A619E493D800992C20 /* Build configuration list for PBXProject "Tickts" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
@@ -298,90 +281,74 @@
 				en,
 				Base,
 			);
-			mainGroup = 1BCAC9D3196E067200130DD9;
-			productRefGroup = 1BCAC9DD196E067200130DD9 /* Products */;
+			mainGroup = 1B86A1A219E493D800992C20;
+			productRefGroup = 1B86A1AC19E493D800992C20 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				1BCAC9DB196E067200130DD9 /* Tickts */,
-				1BCAC9FC196E067300130DD9 /* TicktsTests */,
+				1B86A1AA19E493D800992C20 /* Tickts */,
+				1B86A1C319E493D800992C20 /* TicktsTests */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		1BCAC9DA196E067200130DD9 /* Resources */ = {
+		1B86A1A919E493D800992C20 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				1BCAC9F8196E067200130DD9 /* Images.xcassets in Resources */,
-				1BCAC9EA196E067200130DD9 /* InfoPlist.strings in Resources */,
-				1BCAC9F3196E067200130DD9 /* Main.storyboard in Resources */,
+				1B3AB09519E4987E008FFDF3 /* LaunchScreen.xib in Resources */,
+				1B3AB09619E4987E008FFDF3 /* Main.storyboard in Resources */,
+				1B3AB09119E4987E008FFDF3 /* Images.xcassets in Resources */,
+				1B3AB09219E4987E008FFDF3 /* InfoPlist.strings in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		1BCAC9FB196E067300130DD9 /* Resources */ = {
+		1B86A1C219E493D800992C20 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				1BCACA09196E067300130DD9 /* InfoPlist.strings in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		1BCAC9D8196E067200130DD9 /* Sources */ = {
+		1B86A1A719E493D800992C20 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				1BCACA21196E09C700130DD9 /* UIColor+HexToRgb.m in Sources */,
-				1BBF3D3B1981A7330078551F /* LSButton.m in Sources */,
-				1BCAC9EC196E067200130DD9 /* main.m in Sources */,
-				1BCAC9F6196E067200130DD9 /* TISViewController.m in Sources */,
-				1BCAC9F0196E067200130DD9 /* TISAppDelegate.m in Sources */,
+				1B3AB09419E4987E008FFDF3 /* main.m in Sources */,
+				1B3AB08E19E4987E008FFDF3 /* UIColor+HexToRgb.m in Sources */,
+				1B3AB09019E4987E008FFDF3 /* TISViewController.m in Sources */,
+				1B3AB08D19E4987E008FFDF3 /* BTIAppDelegate.m in Sources */,
+				1B3AB08F19E4987E008FFDF3 /* BTIViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		1BCAC9F9196E067300130DD9 /* Sources */ = {
+		1B86A1C019E493D800992C20 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				1BCACA0B196E067300130DD9 /* TicktsTests.m in Sources */,
+				1B3AB09D19E49A0B008FFDF3 /* TicktsTests.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		1BCACA03196E067300130DD9 /* PBXTargetDependency */ = {
+		1B86A1C619E493D800992C20 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 1BCAC9DB196E067200130DD9 /* Tickts */;
-			targetProxy = 1BCACA02196E067300130DD9 /* PBXContainerItemProxy */;
+			target = 1B86A1AA19E493D800992C20 /* Tickts */;
+			targetProxy = 1B86A1C519E493D800992C20 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		1BCAC9E8196E067200130DD9 /* InfoPlist.strings */ = {
+		1B3AB08119E4987E008FFDF3 /* InfoPlist.strings */ = {
 			isa = PBXVariantGroup;
 			children = (
-				1BCAC9E9196E067200130DD9 /* en */,
-			);
-			name = InfoPlist.strings;
-			sourceTree = "<group>";
-		};
-		1BCAC9F1196E067200130DD9 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				1BCAC9F2196E067200130DD9 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
-		1BCACA07196E067300130DD9 /* InfoPlist.strings */ = {
-			isa = PBXVariantGroup;
-			children = (
-				1BCACA08196E067300130DD9 /* en */,
+				1B3AB08219E4987E008FFDF3 /* en */,
 			);
 			name = InfoPlist.strings;
 			sourceTree = "<group>";
@@ -389,7 +356,7 @@
 /* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
-		1BCACA0C196E067300130DD9 /* Debug */ = {
+		1B86A1CC19E493D800992C20 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -404,9 +371,12 @@
 				CLANG_WARN_ENUM_CONVERSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				FRAMEWORK_SEARCH_PATHS = "$(PLATFORM_DIR)/Developer/Library/Frameworks";
 				GCC_C_LANGUAGE_STANDARD = gnu99;
 				GCC_DYNAMIC_NO_PIC = NO;
 				GCC_OPTIMIZATION_LEVEL = 0;
@@ -421,13 +391,15 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Debug;
 		};
-		1BCACA0D196E067300130DD9 /* Release */ = {
+		1B86A1CD19E493D800992C20 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -442,10 +414,13 @@
 				CLANG_WARN_ENUM_CONVERSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				COPY_PHASE_STRIP = YES;
 				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				FRAMEWORK_SEARCH_PATHS = "$(PLATFORM_DIR)/Developer/Library/Frameworks";
 				GCC_C_LANGUAGE_STANDARD = gnu99;
 				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
 				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
@@ -453,109 +428,103 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
 				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
 				VALIDATE_PRODUCT = YES;
 			};
 			name = Release;
 		};
-		1BCACA0F196E067300130DD9 /* Debug */ = {
+		1B86A1CF19E493D800992C20 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
-				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "Tickts/Tickts-Prefix.pch";
-				INFOPLIST_FILE = "Tickts/Tickts-Info.plist";
+				INFOPLIST_FILE = "$(SRCROOT)/Resources/Support/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				WRAPPER_EXTENSION = app;
+				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Debug;
 		};
-		1BCACA10196E067300130DD9 /* Release */ = {
+		1B86A1D019E493D800992C20 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
-				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "Tickts/Tickts-Prefix.pch";
-				INFOPLIST_FILE = "Tickts/Tickts-Info.plist";
+				INFOPLIST_FILE = "$(SRCROOT)/Resources/Support/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				WRAPPER_EXTENSION = app;
+				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Release;
 		};
-		1BCACA12196E067300130DD9 /* Debug */ = {
+		1B86A1D219E493D800992C20 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/Tickts.app/Tickts";
+				BUNDLE_LOADER = "$(TEST_HOST)";
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(SDKROOT)/Developer/Library/Frameworks",
 					"$(inherited)",
-					"$(DEVELOPER_FRAMEWORKS_DIR)",
 				);
-				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "Tickts/Tickts-Prefix.pch";
 				GCC_PREPROCESSOR_DEFINITIONS = (
 					"DEBUG=1",
 					"$(inherited)",
 				);
-				INFOPLIST_FILE = "TicktsTests/TicktsTests-Info.plist";
+				INFOPLIST_FILE = Tests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				TEST_HOST = "$(BUNDLE_LOADER)";
-				WRAPPER_EXTENSION = xctest;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Tickts.app/Tickts";
 			};
 			name = Debug;
 		};
-		1BCACA13196E067300130DD9 /* Release */ = {
+		1B86A1D319E493D800992C20 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/Tickts.app/Tickts";
+				BUNDLE_LOADER = "$(TEST_HOST)";
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(SDKROOT)/Developer/Library/Frameworks",
 					"$(inherited)",
-					"$(DEVELOPER_FRAMEWORKS_DIR)",
 				);
-				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "Tickts/Tickts-Prefix.pch";
-				INFOPLIST_FILE = "TicktsTests/TicktsTests-Info.plist";
+				INFOPLIST_FILE = Tests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				TEST_HOST = "$(BUNDLE_LOADER)";
-				WRAPPER_EXTENSION = xctest;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Tickts.app/Tickts";
 			};
 			name = Release;
 		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		1BCAC9D7196E067200130DD9 /* Build configuration list for PBXProject "Tickts" */ = {
+		1B86A1A619E493D800992C20 /* Build configuration list for PBXProject "Tickts" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				1BCACA0C196E067300130DD9 /* Debug */,
-				1BCACA0D196E067300130DD9 /* Release */,
+				1B86A1CC19E493D800992C20 /* Debug */,
+				1B86A1CD19E493D800992C20 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		1BCACA0E196E067300130DD9 /* Build configuration list for PBXNativeTarget "Tickts" */ = {
+		1B86A1CE19E493D800992C20 /* Build configuration list for PBXNativeTarget "Tickts" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				1BCACA0F196E067300130DD9 /* Debug */,
-				1BCACA10196E067300130DD9 /* Release */,
+				1B86A1CF19E493D800992C20 /* Debug */,
+				1B86A1D019E493D800992C20 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		1BCACA11196E067300130DD9 /* Build configuration list for PBXNativeTarget "TicktsTests" */ = {
+		1B86A1D119E493D800992C20 /* Build configuration list for PBXNativeTarget "TicktsTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				1BCACA12196E067300130DD9 /* Debug */,
-				1BCACA13196E067300130DD9 /* Release */,
+				1B86A1D219E493D800992C20 /* Debug */,
+				1B86A1D319E493D800992C20 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
-	rootObject = 1BCAC9D4196E067200130DD9 /* Project object */;
+	rootObject = 1B86A1A319E493D800992C20 /* Project object */;
 }
