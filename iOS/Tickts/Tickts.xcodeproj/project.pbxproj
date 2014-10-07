@@ -9,14 +9,13 @@
 /* Begin PBXBuildFile section */
 		1B3AB08D19E4987E008FFDF3 /* BTIAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 1B3AB06F19E4987E008FFDF3 /* BTIAppDelegate.m */; };
 		1B3AB08E19E4987E008FFDF3 /* UIColor+HexToRgb.m in Sources */ = {isa = PBXBuildFile; fileRef = 1B3AB07419E4987E008FFDF3 /* UIColor+HexToRgb.m */; };
-		1B3AB08F19E4987E008FFDF3 /* BTIViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1B3AB07919E4987E008FFDF3 /* BTIViewController.m */; };
-		1B3AB09019E4987E008FFDF3 /* TISViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1B3AB07B19E4987E008FFDF3 /* TISViewController.m */; };
 		1B3AB09119E4987E008FFDF3 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1B3AB07F19E4987E008FFDF3 /* Images.xcassets */; };
 		1B3AB09219E4987E008FFDF3 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 1B3AB08119E4987E008FFDF3 /* InfoPlist.strings */; };
 		1B3AB09419E4987E008FFDF3 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 1B3AB08519E4987E008FFDF3 /* main.m */; };
 		1B3AB09519E4987E008FFDF3 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1B3AB08819E4987E008FFDF3 /* LaunchScreen.xib */; };
 		1B3AB09619E4987E008FFDF3 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1B3AB08919E4987E008FFDF3 /* Main.storyboard */; };
 		1B3AB09D19E49A0B008FFDF3 /* TicktsTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 1B3AB09B19E49A0B008FFDF3 /* TicktsTests.m */; };
+		1B3AB0A419E49FBA008FFDF3 /* BTIViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1B3AB0A319E49FBA008FFDF3 /* BTIViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,10 +34,6 @@
 		1B3AB07319E4987E008FFDF3 /* UIColor+HexToRgb.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIColor+HexToRgb.h"; sourceTree = "<group>"; };
 		1B3AB07419E4987E008FFDF3 /* UIColor+HexToRgb.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIColor+HexToRgb.m"; sourceTree = "<group>"; };
 		1B3AB07619E4987E008FFDF3 /* BTIColorConstants.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BTIColorConstants.h; sourceTree = "<group>"; };
-		1B3AB07819E4987E008FFDF3 /* BTIViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BTIViewController.h; sourceTree = "<group>"; };
-		1B3AB07919E4987E008FFDF3 /* BTIViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BTIViewController.m; sourceTree = "<group>"; };
-		1B3AB07A19E4987E008FFDF3 /* TISViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TISViewController.h; sourceTree = "<group>"; };
-		1B3AB07B19E4987E008FFDF3 /* TISViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TISViewController.m; sourceTree = "<group>"; };
 		1B3AB07F19E4987E008FFDF3 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		1B3AB08219E4987E008FFDF3 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		1B3AB08419E4987E008FFDF3 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -48,6 +43,8 @@
 		1B3AB08919E4987E008FFDF3 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
 		1B3AB09A19E49A0B008FFDF3 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		1B3AB09B19E49A0B008FFDF3 /* TicktsTests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TicktsTests.m; sourceTree = "<group>"; };
+		1B3AB0A219E49FBA008FFDF3 /* BTIViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BTIViewController.h; sourceTree = "<group>"; };
+		1B3AB0A319E49FBA008FFDF3 /* BTIViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BTIViewController.m; sourceTree = "<group>"; };
 		1B86A1AB19E493D800992C20 /* Tickts.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Tickts.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		1B86A1C419E493D800992C20 /* TicktsTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TicktsTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
@@ -128,10 +125,7 @@
 		1B3AB07719E4987E008FFDF3 /* Controller */ = {
 			isa = PBXGroup;
 			children = (
-				1B3AB07819E4987E008FFDF3 /* BTIViewController.h */,
-				1B3AB07919E4987E008FFDF3 /* BTIViewController.m */,
-				1B3AB07A19E4987E008FFDF3 /* TISViewController.h */,
-				1B3AB07B19E4987E008FFDF3 /* TISViewController.m */,
+				1B3AB0A119E49FBA008FFDF3 /* UIViewController */,
 			);
 			path = Controller;
 			sourceTree = "<group>";
@@ -195,6 +189,16 @@
 				1B3AB09B19E49A0B008FFDF3 /* TicktsTests.m */,
 			);
 			path = Tests;
+			sourceTree = "<group>";
+		};
+		1B3AB0A119E49FBA008FFDF3 /* UIViewController */ = {
+			isa = PBXGroup;
+			children = (
+				1B3AB0A219E49FBA008FFDF3 /* BTIViewController.h */,
+				1B3AB0A319E49FBA008FFDF3 /* BTIViewController.m */,
+			);
+			name = UIViewController;
+			path = Base/UIViewController;
 			sourceTree = "<group>";
 		};
 		1B86A1A219E493D800992C20 = {
@@ -318,11 +322,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1B3AB0A419E49FBA008FFDF3 /* BTIViewController.m in Sources */,
 				1B3AB09419E4987E008FFDF3 /* main.m in Sources */,
 				1B3AB08E19E4987E008FFDF3 /* UIColor+HexToRgb.m in Sources */,
-				1B3AB09019E4987E008FFDF3 /* TISViewController.m in Sources */,
 				1B3AB08D19E4987E008FFDF3 /* BTIAppDelegate.m in Sources */,
-				1B3AB08F19E4987E008FFDF3 /* BTIViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

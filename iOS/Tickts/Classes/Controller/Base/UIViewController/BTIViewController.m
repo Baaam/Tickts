@@ -10,13 +10,13 @@
 #import "UIColor+HexToRgb.h"
 #import "BTIColorConstants.h"
 
-@interface ViewController ()
+@interface BTIViewController ()
 
 @property (nonatomic, strong) CAGradientLayer *backgroundGradientLayer;
 
 @end
 
-@implementation ViewController
+@implementation BTIViewController
 
 - (void)viewDidLoad {
 	[super viewDidLoad];
