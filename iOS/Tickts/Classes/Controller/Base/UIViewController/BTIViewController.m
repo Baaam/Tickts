@@ -7,8 +7,7 @@
 //
 
 #import "BTIViewController.h"
-#import "UIColor+HexToRgb.h"
-#import "BTIColorConstants.h"
+#import "UIColor+BackgroundGradient.h"
 
 @interface BTIViewController ()
 
@@ -24,19 +23,14 @@
 	[self.view.layer insertSublayer:self.backgroundGradientLayer atIndex:0];
 }
 
-- (void)didReceiveMemoryWarning {
-	[super didReceiveMemoryWarning];
-	// Dispose of any resources that can be recreated.
-}
-
 - (CAGradientLayer *)backgroundGradientLayer
 {
 	if (!_backgroundGradientLayer) {
 		_backgroundGradientLayer = [CAGradientLayer layer];
 		_backgroundGradientLayer.frame = self.view.frame;
 		_backgroundGradientLayer.colors = @[
-											(id)[UIColor colorFromHexString:kBTIMainViewGradientStartColor].CGColor,
-											(id)[UIColor colorFromHexString:kBTIMainViewGradientEndColor].CGColor
+											(id)[UIColor backgroundGradientStartColor].CGColor,
+											(id)[UIColor backgroundGradientEndColor].CGColor
 											];
 		
 		_backgroundGradientLayer.masksToBounds = YES;

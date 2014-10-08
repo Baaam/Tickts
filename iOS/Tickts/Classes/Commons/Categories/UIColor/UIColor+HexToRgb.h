@@ -10,7 +10,10 @@
 
 @interface UIColor (HexToRgb)
 
-+ (UIColor *)colorFromHex:(unsigned int)hexValue;
-+ (UIColor *)colorFromHexString:(NSString *)hexValueAsString;
++ (UIColor *)colorWithHex:(unsigned int)hexValue alpha:(CGFloat)alpha;
+
++ (UIColor *)colorWithHex:(unsigned int)hexValue;
+
++ (UIColor *)colorWithHexString:(NSString *)hexValueAsString;
 
 @end

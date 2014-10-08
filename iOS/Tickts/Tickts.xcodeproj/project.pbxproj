@@ -16,6 +16,7 @@
 		1B3AB09619E4987E008FFDF3 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1B3AB08919E4987E008FFDF3 /* Main.storyboard */; };
 		1B3AB09D19E49A0B008FFDF3 /* TicktsTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 1B3AB09B19E49A0B008FFDF3 /* TicktsTests.m */; };
 		1B3AB0A419E49FBA008FFDF3 /* BTIViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1B3AB0A319E49FBA008FFDF3 /* BTIViewController.m */; };
+		1BE00EBD19E5BEE500C0FD60 /* UIColor+BackgroundGradient.m in Sources */ = {isa = PBXBuildFile; fileRef = 1BE00EBC19E5BEE500C0FD60 /* UIColor+BackgroundGradient.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -33,7 +34,6 @@
 		1B3AB06F19E4987E008FFDF3 /* BTIAppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BTIAppDelegate.m; sourceTree = "<group>"; };
 		1B3AB07319E4987E008FFDF3 /* UIColor+HexToRgb.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIColor+HexToRgb.h"; sourceTree = "<group>"; };
 		1B3AB07419E4987E008FFDF3 /* UIColor+HexToRgb.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIColor+HexToRgb.m"; sourceTree = "<group>"; };
-		1B3AB07619E4987E008FFDF3 /* BTIColorConstants.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BTIColorConstants.h; sourceTree = "<group>"; };
 		1B3AB07F19E4987E008FFDF3 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		1B3AB08219E4987E008FFDF3 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		1B3AB08419E4987E008FFDF3 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -47,6 +47,8 @@
 		1B3AB0A319E49FBA008FFDF3 /* BTIViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BTIViewController.m; sourceTree = "<group>"; };
 		1B86A1AB19E493D800992C20 /* Tickts.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Tickts.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		1B86A1C419E493D800992C20 /* TicktsTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TicktsTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		1BE00EBB19E5BEE500C0FD60 /* UIColor+BackgroundGradient.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIColor+BackgroundGradient.h"; sourceTree = "<group>"; };
+		1BE00EBC19E5BEE500C0FD60 /* UIColor+BackgroundGradient.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIColor+BackgroundGradient.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -110,6 +112,8 @@
 			children = (
 				1B3AB07319E4987E008FFDF3 /* UIColor+HexToRgb.h */,
 				1B3AB07419E4987E008FFDF3 /* UIColor+HexToRgb.m */,
+				1BE00EBB19E5BEE500C0FD60 /* UIColor+BackgroundGradient.h */,
+				1BE00EBC19E5BEE500C0FD60 /* UIColor+BackgroundGradient.m */,
 			);
 			path = UIColor;
 			sourceTree = "<group>";
@@ -117,7 +121,6 @@
 		1B3AB07519E4987E008FFDF3 /* Headers */ = {
 			isa = PBXGroup;
 			children = (
-				1B3AB07619E4987E008FFDF3 /* BTIColorConstants.h */,
 			);
 			path = Headers;
 			sourceTree = "<group>";
@@ -326,6 +329,7 @@
 				1B3AB09419E4987E008FFDF3 /* main.m in Sources */,
 				1B3AB08E19E4987E008FFDF3 /* UIColor+HexToRgb.m in Sources */,
 				1B3AB08D19E4987E008FFDF3 /* BTIAppDelegate.m in Sources */,
+				1BE00EBD19E5BEE500C0FD60 /* UIColor+BackgroundGradient.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
