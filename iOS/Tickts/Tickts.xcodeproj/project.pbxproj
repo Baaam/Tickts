@@ -22,7 +22,7 @@
 		1B6467DA19EDDA3200470B0D /* Montserrat-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 1B6467D819EDDA3200470B0D /* Montserrat-Bold.ttf */; };
 		1B6467DB19EDDA3200470B0D /* Montserrat-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 1B6467D919EDDA3200470B0D /* Montserrat-Regular.ttf */; };
 		1B6467DE19EDDE0000470B0D /* UIFont+Tickts.m in Sources */ = {isa = PBXBuildFile; fileRef = 1B6467DD19EDDE0000470B0D /* UIFont+Tickts.m */; };
-		1B6467E119EF415200470B0D /* BTINativeNavigationBar.m in Sources */ = {isa = PBXBuildFile; fileRef = 1B6467E019EF415200470B0D /* BTINativeNavigationBar.m */; };
+		1B6467E119EF415200470B0D /* BTINavigationBar.m in Sources */ = {isa = PBXBuildFile; fileRef = 1B6467E019EF415200470B0D /* BTINavigationBar.m */; };
 		1B92ED9419E74D1A008E0D8F /* BTIAppDelegate+Appearance.m in Sources */ = {isa = PBXBuildFile; fileRef = 1B92ED9319E74D1A008E0D8F /* BTIAppDelegate+Appearance.m */; };
 		1BE00EBD19E5BEE500C0FD60 /* UIColor+BackgroundGradient.m in Sources */ = {isa = PBXBuildFile; fileRef = 1BE00EBC19E5BEE500C0FD60 /* UIColor+BackgroundGradient.m */; };
 		1BE00EC319E5F60A00C0FD60 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1BE00EC219E5F60A00C0FD60 /* UIKit.framework */; };
@@ -65,8 +65,8 @@
 		1B6467D919EDDA3200470B0D /* Montserrat-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Montserrat-Regular.ttf"; sourceTree = "<group>"; };
 		1B6467DC19EDDE0000470B0D /* UIFont+Tickts.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIFont+Tickts.h"; sourceTree = "<group>"; };
 		1B6467DD19EDDE0000470B0D /* UIFont+Tickts.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIFont+Tickts.m"; sourceTree = "<group>"; };
-		1B6467DF19EF415200470B0D /* BTINativeNavigationBar.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BTINativeNavigationBar.h; sourceTree = "<group>"; };
-		1B6467E019EF415200470B0D /* BTINativeNavigationBar.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BTINativeNavigationBar.m; sourceTree = "<group>"; };
+		1B6467DF19EF415200470B0D /* BTINavigationBar.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BTINavigationBar.h; sourceTree = "<group>"; };
+		1B6467E019EF415200470B0D /* BTINavigationBar.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BTINavigationBar.m; sourceTree = "<group>"; };
 		1B86A1AB19E493D800992C20 /* Tickts.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Tickts.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		1B86A1C419E493D800992C20 /* TicktsTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TicktsTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		1B92ED9219E74D1A008E0D8F /* BTIAppDelegate+Appearance.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "BTIAppDelegate+Appearance.h"; sourceTree = "<group>"; };
@@ -250,8 +250,8 @@
 		1B6467CB19EC6C8D00470B0D /* UINavigationBar */ = {
 			isa = PBXGroup;
 			children = (
-				1B6467DF19EF415200470B0D /* BTINativeNavigationBar.h */,
-				1B6467E019EF415200470B0D /* BTINativeNavigationBar.m */,
+				1B6467DF19EF415200470B0D /* BTINavigationBar.h */,
+				1B6467E019EF415200470B0D /* BTINavigationBar.m */,
 			);
 			path = UINavigationBar;
 			sourceTree = "<group>";
@@ -429,7 +429,7 @@
 			files = (
 				1B6467DE19EDDE0000470B0D /* UIFont+Tickts.m in Sources */,
 				1B6467C519EB4D4800470B0D /* BTIViewController.m in Sources */,
-				1B6467E119EF415200470B0D /* BTINativeNavigationBar.m in Sources */,
+				1B6467E119EF415200470B0D /* BTINavigationBar.m in Sources */,
 				1B6467D219EC716400470B0D /* UINavigationBar+Transparent.m in Sources */,
 				1B6467D619EDD93A00470B0D /* UIFont+Baaam.m in Sources */,
 				1B6467C419EB4D4800470B0D /* BTINavigationController.m in Sources */,

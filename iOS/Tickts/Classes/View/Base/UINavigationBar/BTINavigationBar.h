@@ -1,5 +1,5 @@
 //
-//  BTINativeNavigationBar.h
+//  BTINavigationBar.h
 //  Tickts
 //
 //  Created by Luís Portela Afonso on 16/10/14.
@@ -8,6 +8,6 @@
 
 #import <UIKit/UIKit.h>
 
-@interface BTINativeNavigationBar : UINavigationBar<UINavigationControllerDelegate>
+@interface BTINavigationBar : UINavigationBar<UINavigationControllerDelegate>
 
 @end

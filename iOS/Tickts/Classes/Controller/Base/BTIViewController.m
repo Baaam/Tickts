@@ -25,12 +25,6 @@
 
 
 	self.title = @"Find";
-	//	UIBarButtonItem *item = [[UIBarButtonItem alloc] initWithBarButtonSystemItem:UIBarButtonSystemItemAdd
-	//																		  target:self
-	//																		  action:@selector(cenas)];
-	//	self.navigationItem.leftBarButtonItem = item;
-
-	NSLog(@"Top Layout guide: %f", self.topLayoutGuide.length);
 }
 
 - (void)viewDidAppear:(BOOL)animated {

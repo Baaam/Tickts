@@ -1,16 +1,16 @@
 //
-//  BTINativeNavigationBar.m
+//  BTINavigationBar.m
 //  Tickts
 //
 //  Created by Luís Portela Afonso on 16/10/14.
 //  Copyright (c) 2014 Baaam. All rights reserved.
 //
 
-#import "BTINativeNavigationBar.h"
+#import "BTINavigationBar.h"
 
 #import "UIFont+Tickts.h"
 
-@interface BTINativeNavigationBar ()
+@interface BTINavigationBar ()
 
 @property(nonatomic, strong) UILabel *titleLabel;
 @property(nonatomic, strong) UIButton *backButton;
@@ -31,9 +31,7 @@
 
 @end
 
-@implementation BTINativeNavigationBar
-
-@synthesize topItem = _topItem;
+@implementation BTINavigationBar
 
 - (instancetype)init {
 	if (self = [super init]) {
@@ -61,13 +59,13 @@
 }
 
 - (UINavigationItem *)popNavigationItemAnimated:(BOOL)animated {
-    if ([self.itemsStack count] == 2) {
-        [self hideBackButtonAnimated:animated];
-    }
-    
-    UINavigationItem *itemToPop = [self.itemsStack lastObject];
-    [self.itemsStack removeLastObject];
-    return itemToPop;
+	if ([self.itemsStack count] == 2) {
+		[self hideBackButtonAnimated:animated];
+	}
+
+	UINavigationItem *itemToPop = [self.itemsStack lastObject];
+	[self.itemsStack removeLastObject];
+	return itemToPop;
 }
 
 - (void)setItems:(NSArray *)items animated:(BOOL)animated {
@@ -117,7 +115,7 @@
 }
 
 - (void)hideBackButtonAnimated:(BOOL)animated {
-    self.backButton.hidden = YES;
+	self.backButton.hidden = YES;
 }
 
 - (void)setupTitleLabel {

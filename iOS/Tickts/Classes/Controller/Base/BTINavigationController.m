@@ -9,7 +9,6 @@
 #import "BTINavigationController.h"
 
 #import "BTINavigationBar.h"
-#import "BTINativeNavigationBar.h"
 #import "UINavigationBar+Transparent.h"
 
 @interface BTINavigationViewController () <UINavigationBarDelegate>
@@ -21,10 +20,8 @@
 - (void)viewDidLoad {
 	[super viewDidLoad];
 
-	self.navigationBar.delegate = self;
-
-	[self setValue:[BTINativeNavigationBar new] forKeyPath:@"navigationBar"];
-	self.delegate = (BTINavigationBar *)self.navigationBar;
+	[self setValue:[BTINavigationBar new] forKeyPath:@"navigationBar"];
+    self.delegate = (BTINavigationBar *)self.navigationBar;
 
 	self.navigationBarHidden = NO;
 	[self.navigationBar transparent];
@@ -36,9 +33,9 @@
 }
 
 - (UIViewController *)popViewControllerAnimated:(BOOL)animated {
-    UIViewController *viewControllerToPop = [super popViewControllerAnimated:animated];
-    [self.navigationBar popNavigationItemAnimated:animated];
-    return viewControllerToPop;
+	UIViewController *viewControllerToPop = [super popViewControllerAnimated:animated];
+	[self.navigationBar popNavigationItemAnimated:animated];
+	return viewControllerToPop;
 }
 
 #pragma mark - UINavigationBarDelegate Methods
