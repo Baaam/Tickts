@@ -8,15 +8,25 @@
 
 /* Begin PBXBuildFile section */
 		1B3AB08D19E4987E008FFDF3 /* BTIAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 1B3AB06F19E4987E008FFDF3 /* BTIAppDelegate.m */; };
-		1B3AB08E19E4987E008FFDF3 /* UIColor+HexToRgb.m in Sources */ = {isa = PBXBuildFile; fileRef = 1B3AB07419E4987E008FFDF3 /* UIColor+HexToRgb.m */; };
+		1B3AB08E19E4987E008FFDF3 /* UIColor+Baaam.m in Sources */ = {isa = PBXBuildFile; fileRef = 1B3AB07419E4987E008FFDF3 /* UIColor+Baaam.m */; };
 		1B3AB09119E4987E008FFDF3 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1B3AB07F19E4987E008FFDF3 /* Images.xcassets */; };
 		1B3AB09219E4987E008FFDF3 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 1B3AB08119E4987E008FFDF3 /* InfoPlist.strings */; };
 		1B3AB09419E4987E008FFDF3 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 1B3AB08519E4987E008FFDF3 /* main.m */; };
 		1B3AB09519E4987E008FFDF3 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1B3AB08819E4987E008FFDF3 /* LaunchScreen.xib */; };
 		1B3AB09619E4987E008FFDF3 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1B3AB08919E4987E008FFDF3 /* Main.storyboard */; };
 		1B3AB09D19E49A0B008FFDF3 /* TicktsTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 1B3AB09B19E49A0B008FFDF3 /* TicktsTests.m */; };
-		1B3AB0A419E49FBA008FFDF3 /* BTIViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1B3AB0A319E49FBA008FFDF3 /* BTIViewController.m */; };
+		1B6467C419EB4D4800470B0D /* BTINavigationController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1B6467C119EB4D4800470B0D /* BTINavigationController.m */; };
+		1B6467C519EB4D4800470B0D /* BTIViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1B6467C319EB4D4800470B0D /* BTIViewController.m */; };
+		1B6467D219EC716400470B0D /* UINavigationBar+Transparent.m in Sources */ = {isa = PBXBuildFile; fileRef = 1B6467D119EC716400470B0D /* UINavigationBar+Transparent.m */; };
+		1B6467D619EDD93A00470B0D /* UIFont+Baaam.m in Sources */ = {isa = PBXBuildFile; fileRef = 1B6467D519EDD93A00470B0D /* UIFont+Baaam.m */; };
+		1B6467DA19EDDA3200470B0D /* Montserrat-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 1B6467D819EDDA3200470B0D /* Montserrat-Bold.ttf */; };
+		1B6467DB19EDDA3200470B0D /* Montserrat-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 1B6467D919EDDA3200470B0D /* Montserrat-Regular.ttf */; };
+		1B6467DE19EDDE0000470B0D /* UIFont+Tickts.m in Sources */ = {isa = PBXBuildFile; fileRef = 1B6467DD19EDDE0000470B0D /* UIFont+Tickts.m */; };
+		1B6467E119EF415200470B0D /* BTINativeNavigationBar.m in Sources */ = {isa = PBXBuildFile; fileRef = 1B6467E019EF415200470B0D /* BTINativeNavigationBar.m */; };
+		1B92ED9419E74D1A008E0D8F /* BTIAppDelegate+Appearance.m in Sources */ = {isa = PBXBuildFile; fileRef = 1B92ED9319E74D1A008E0D8F /* BTIAppDelegate+Appearance.m */; };
 		1BE00EBD19E5BEE500C0FD60 /* UIColor+BackgroundGradient.m in Sources */ = {isa = PBXBuildFile; fileRef = 1BE00EBC19E5BEE500C0FD60 /* UIColor+BackgroundGradient.m */; };
+		1BE00EC319E5F60A00C0FD60 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1BE00EC219E5F60A00C0FD60 /* UIKit.framework */; };
+		1BE00EC519E5F62100C0FD60 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1BE00EC419E5F62100C0FD60 /* Foundation.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -32,8 +42,8 @@
 /* Begin PBXFileReference section */
 		1B3AB06E19E4987E008FFDF3 /* BTIAppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BTIAppDelegate.h; sourceTree = "<group>"; };
 		1B3AB06F19E4987E008FFDF3 /* BTIAppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BTIAppDelegate.m; sourceTree = "<group>"; };
-		1B3AB07319E4987E008FFDF3 /* UIColor+HexToRgb.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIColor+HexToRgb.h"; sourceTree = "<group>"; };
-		1B3AB07419E4987E008FFDF3 /* UIColor+HexToRgb.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIColor+HexToRgb.m"; sourceTree = "<group>"; };
+		1B3AB07319E4987E008FFDF3 /* UIColor+Baaam.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIColor+Baaam.h"; sourceTree = "<group>"; };
+		1B3AB07419E4987E008FFDF3 /* UIColor+Baaam.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIColor+Baaam.m"; sourceTree = "<group>"; };
 		1B3AB07F19E4987E008FFDF3 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		1B3AB08219E4987E008FFDF3 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		1B3AB08419E4987E008FFDF3 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -43,12 +53,28 @@
 		1B3AB08919E4987E008FFDF3 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
 		1B3AB09A19E49A0B008FFDF3 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		1B3AB09B19E49A0B008FFDF3 /* TicktsTests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TicktsTests.m; sourceTree = "<group>"; };
-		1B3AB0A219E49FBA008FFDF3 /* BTIViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BTIViewController.h; sourceTree = "<group>"; };
-		1B3AB0A319E49FBA008FFDF3 /* BTIViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BTIViewController.m; sourceTree = "<group>"; };
+		1B6467C019EB4D4800470B0D /* BTINavigationController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BTINavigationController.h; sourceTree = "<group>"; };
+		1B6467C119EB4D4800470B0D /* BTINavigationController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BTINavigationController.m; sourceTree = "<group>"; };
+		1B6467C219EB4D4800470B0D /* BTIViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BTIViewController.h; sourceTree = "<group>"; };
+		1B6467C319EB4D4800470B0D /* BTIViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BTIViewController.m; sourceTree = "<group>"; };
+		1B6467D019EC716400470B0D /* UINavigationBar+Transparent.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UINavigationBar+Transparent.h"; sourceTree = "<group>"; };
+		1B6467D119EC716400470B0D /* UINavigationBar+Transparent.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UINavigationBar+Transparent.m"; sourceTree = "<group>"; };
+		1B6467D419EDD93A00470B0D /* UIFont+Baaam.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIFont+Baaam.h"; sourceTree = "<group>"; };
+		1B6467D519EDD93A00470B0D /* UIFont+Baaam.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIFont+Baaam.m"; sourceTree = "<group>"; };
+		1B6467D819EDDA3200470B0D /* Montserrat-Bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Montserrat-Bold.ttf"; sourceTree = "<group>"; };
+		1B6467D919EDDA3200470B0D /* Montserrat-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Montserrat-Regular.ttf"; sourceTree = "<group>"; };
+		1B6467DC19EDDE0000470B0D /* UIFont+Tickts.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIFont+Tickts.h"; sourceTree = "<group>"; };
+		1B6467DD19EDDE0000470B0D /* UIFont+Tickts.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIFont+Tickts.m"; sourceTree = "<group>"; };
+		1B6467DF19EF415200470B0D /* BTINativeNavigationBar.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BTINativeNavigationBar.h; sourceTree = "<group>"; };
+		1B6467E019EF415200470B0D /* BTINativeNavigationBar.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BTINativeNavigationBar.m; sourceTree = "<group>"; };
 		1B86A1AB19E493D800992C20 /* Tickts.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Tickts.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		1B86A1C419E493D800992C20 /* TicktsTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TicktsTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		1B92ED9219E74D1A008E0D8F /* BTIAppDelegate+Appearance.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "BTIAppDelegate+Appearance.h"; sourceTree = "<group>"; };
+		1B92ED9319E74D1A008E0D8F /* BTIAppDelegate+Appearance.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "BTIAppDelegate+Appearance.m"; sourceTree = "<group>"; };
 		1BE00EBB19E5BEE500C0FD60 /* UIColor+BackgroundGradient.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIColor+BackgroundGradient.h"; sourceTree = "<group>"; };
 		1BE00EBC19E5BEE500C0FD60 /* UIColor+BackgroundGradient.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIColor+BackgroundGradient.m"; sourceTree = "<group>"; };
+		1BE00EC219E5F60A00C0FD60 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		1BE00EC419E5F62100C0FD60 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +82,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1BE00EC519E5F62100C0FD60 /* Foundation.framework in Frameworks */,
+				1BE00EC319E5F60A00C0FD60 /* UIKit.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -76,7 +104,7 @@
 				1B3AB07019E4987E008FFDF3 /* Commons */,
 				1B3AB07719E4987E008FFDF3 /* Controller */,
 				1B3AB07C19E4987E008FFDF3 /* Model */,
-				1B3AB07D19E4987E008FFDF3 /* View */,
+				1B6467C919EC6C8D00470B0D /* View */,
 			);
 			path = Classes;
 			sourceTree = "<group>";
@@ -102,7 +130,10 @@
 		1B3AB07119E4987E008FFDF3 /* Categories */ = {
 			isa = PBXGroup;
 			children = (
+				1B92ED9119E74CE0008E0D8F /* BTIAppDelegate */,
 				1B3AB07219E4987E008FFDF3 /* UIColor */,
+				1B6467D319EDD91B00470B0D /* UIFont */,
+				1B6467CF19EC714900470B0D /* UINavigationBar */,
 			);
 			path = Categories;
 			sourceTree = "<group>";
@@ -110,8 +141,8 @@
 		1B3AB07219E4987E008FFDF3 /* UIColor */ = {
 			isa = PBXGroup;
 			children = (
-				1B3AB07319E4987E008FFDF3 /* UIColor+HexToRgb.h */,
-				1B3AB07419E4987E008FFDF3 /* UIColor+HexToRgb.m */,
+				1B3AB07319E4987E008FFDF3 /* UIColor+Baaam.h */,
+				1B3AB07419E4987E008FFDF3 /* UIColor+Baaam.m */,
 				1BE00EBB19E5BEE500C0FD60 /* UIColor+BackgroundGradient.h */,
 				1BE00EBC19E5BEE500C0FD60 /* UIColor+BackgroundGradient.m */,
 			);
@@ -128,7 +159,7 @@
 		1B3AB07719E4987E008FFDF3 /* Controller */ = {
 			isa = PBXGroup;
 			children = (
-				1B3AB0A119E49FBA008FFDF3 /* UIViewController */,
+				1B6467BF19EB4D4800470B0D /* Base */,
 			);
 			path = Controller;
 			sourceTree = "<group>";
@@ -140,16 +171,11 @@
 			path = Model;
 			sourceTree = "<group>";
 		};
-		1B3AB07D19E4987E008FFDF3 /* View */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = View;
-			sourceTree = "<group>";
-		};
 		1B3AB07E19E4987E008FFDF3 /* Resources */ = {
 			isa = PBXGroup;
 			children = (
+				1B6467D719EDDA3200470B0D /* Fonts */,
+				1BE00EC119E5F5F100C0FD60 /* Frameworks */,
 				1B3AB07F19E4987E008FFDF3 /* Images.xcassets */,
 				1B3AB08019E4987E008FFDF3 /* Language */,
 				1B3AB08319E4987E008FFDF3 /* Support */,
@@ -194,14 +220,69 @@
 			path = Tests;
 			sourceTree = "<group>";
 		};
-		1B3AB0A119E49FBA008FFDF3 /* UIViewController */ = {
+		1B6467BF19EB4D4800470B0D /* Base */ = {
 			isa = PBXGroup;
 			children = (
-				1B3AB0A219E49FBA008FFDF3 /* BTIViewController.h */,
-				1B3AB0A319E49FBA008FFDF3 /* BTIViewController.m */,
+				1B6467C019EB4D4800470B0D /* BTINavigationController.h */,
+				1B6467C119EB4D4800470B0D /* BTINavigationController.m */,
+				1B6467C219EB4D4800470B0D /* BTIViewController.h */,
+				1B6467C319EB4D4800470B0D /* BTIViewController.m */,
 			);
-			name = UIViewController;
-			path = Base/UIViewController;
+			path = Base;
+			sourceTree = "<group>";
+		};
+		1B6467C919EC6C8D00470B0D /* View */ = {
+			isa = PBXGroup;
+			children = (
+				1B6467CA19EC6C8D00470B0D /* Base */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		1B6467CA19EC6C8D00470B0D /* Base */ = {
+			isa = PBXGroup;
+			children = (
+				1B6467CB19EC6C8D00470B0D /* UINavigationBar */,
+			);
+			path = Base;
+			sourceTree = "<group>";
+		};
+		1B6467CB19EC6C8D00470B0D /* UINavigationBar */ = {
+			isa = PBXGroup;
+			children = (
+				1B6467DF19EF415200470B0D /* BTINativeNavigationBar.h */,
+				1B6467E019EF415200470B0D /* BTINativeNavigationBar.m */,
+			);
+			path = UINavigationBar;
+			sourceTree = "<group>";
+		};
+		1B6467CF19EC714900470B0D /* UINavigationBar */ = {
+			isa = PBXGroup;
+			children = (
+				1B6467D019EC716400470B0D /* UINavigationBar+Transparent.h */,
+				1B6467D119EC716400470B0D /* UINavigationBar+Transparent.m */,
+			);
+			path = UINavigationBar;
+			sourceTree = "<group>";
+		};
+		1B6467D319EDD91B00470B0D /* UIFont */ = {
+			isa = PBXGroup;
+			children = (
+				1B6467D419EDD93A00470B0D /* UIFont+Baaam.h */,
+				1B6467D519EDD93A00470B0D /* UIFont+Baaam.m */,
+				1B6467DC19EDDE0000470B0D /* UIFont+Tickts.h */,
+				1B6467DD19EDDE0000470B0D /* UIFont+Tickts.m */,
+			);
+			path = UIFont;
+			sourceTree = "<group>";
+		};
+		1B6467D719EDDA3200470B0D /* Fonts */ = {
+			isa = PBXGroup;
+			children = (
+				1B6467D819EDDA3200470B0D /* Montserrat-Bold.ttf */,
+				1B6467D919EDDA3200470B0D /* Montserrat-Regular.ttf */,
+			);
+			path = Fonts;
 			sourceTree = "<group>";
 		};
 		1B86A1A219E493D800992C20 = {
@@ -221,6 +302,25 @@
 				1B86A1C419E493D800992C20 /* TicktsTests.xctest */,
 			);
 			name = Products;
+			sourceTree = "<group>";
+		};
+		1B92ED9119E74CE0008E0D8F /* BTIAppDelegate */ = {
+			isa = PBXGroup;
+			children = (
+				1B92ED9219E74D1A008E0D8F /* BTIAppDelegate+Appearance.h */,
+				1B92ED9319E74D1A008E0D8F /* BTIAppDelegate+Appearance.m */,
+			);
+			path = BTIAppDelegate;
+			sourceTree = "<group>";
+		};
+		1BE00EC119E5F5F100C0FD60 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				1BE00EC419E5F62100C0FD60 /* Foundation.framework */,
+				1BE00EC219E5F60A00C0FD60 /* UIKit.framework */,
+			);
+			name = Frameworks;
+			path = ../Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -304,6 +404,8 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1B6467DB19EDDA3200470B0D /* Montserrat-Regular.ttf in Resources */,
+				1B6467DA19EDDA3200470B0D /* Montserrat-Bold.ttf in Resources */,
 				1B3AB09519E4987E008FFDF3 /* LaunchScreen.xib in Resources */,
 				1B3AB09619E4987E008FFDF3 /* Main.storyboard in Resources */,
 				1B3AB09119E4987E008FFDF3 /* Images.xcassets in Resources */,
@@ -325,10 +427,16 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				1B3AB0A419E49FBA008FFDF3 /* BTIViewController.m in Sources */,
+				1B6467DE19EDDE0000470B0D /* UIFont+Tickts.m in Sources */,
+				1B6467C519EB4D4800470B0D /* BTIViewController.m in Sources */,
+				1B6467E119EF415200470B0D /* BTINativeNavigationBar.m in Sources */,
+				1B6467D219EC716400470B0D /* UINavigationBar+Transparent.m in Sources */,
+				1B6467D619EDD93A00470B0D /* UIFont+Baaam.m in Sources */,
+				1B6467C419EB4D4800470B0D /* BTINavigationController.m in Sources */,
 				1B3AB09419E4987E008FFDF3 /* main.m in Sources */,
-				1B3AB08E19E4987E008FFDF3 /* UIColor+HexToRgb.m in Sources */,
+				1B3AB08E19E4987E008FFDF3 /* UIColor+Baaam.m in Sources */,
 				1B3AB08D19E4987E008FFDF3 /* BTIAppDelegate.m in Sources */,
+				1B92ED9419E74D1A008E0D8F /* BTIAppDelegate+Appearance.m in Sources */,
 				1BE00EBD19E5BEE500C0FD60 /* UIColor+BackgroundGradient.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -449,6 +557,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				INFOPLIST_FILE = "$(SRCROOT)/Resources/Support/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -461,6 +570,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				INFOPLIST_FILE = "$(SRCROOT)/Resources/Support/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TARGETED_DEVICE_FAMILY = "1,2";

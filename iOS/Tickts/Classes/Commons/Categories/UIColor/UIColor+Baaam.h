@@ -1,5 +1,5 @@
 //
-//  UIColor+HexToRgb.h
+//  UIColor+Baaam.h
 //  Tickts
 //
 //  Created by Luís Portela Afonso on 10/07/14.
@@ -8,7 +8,7 @@
 
 #import <UIKit/UIKit.h>
 
-@interface UIColor (HexToRgb)
+@interface UIColor (Baaam)
 
 + (UIColor *)colorWithHex:(unsigned int)hexValue alpha:(CGFloat)alpha;
 

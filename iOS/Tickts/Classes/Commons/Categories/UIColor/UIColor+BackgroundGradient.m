@@ -8,7 +8,7 @@
 
 #import "UIColor+BackgroundGradient.h"
 
-#import "UIColor+HexToRgb.h"
+#import "UIColor+Baaam.h"
 
 @implementation UIColor (BackgroundGradient)
 
