@@ -22,26 +22,9 @@
 	[super viewDidLoad];
 
 	[self.view.layer insertSublayer:self.backgroundGradientLayer atIndex:0];
-
-
-	self.title = @"Find";
 }
 
-- (void)viewDidAppear:(BOOL)animated {
-	[super viewDidAppear:animated];
-
-	NSLog(@"Top Layout guide: %f", self.topLayoutGuide.length);
-}
-
-- (IBAction)push {
-	UIViewController *cenas = [UIViewController new];
-	cenas.title = @"Cenas";
-
-	[self.navigationController pushViewController:cenas animated:YES];
-}
-
-- (void)cenas {
-}
+#pragma mark - Getters
 
 - (CAGradientLayer *)backgroundGradientLayer {
 	if (!_backgroundGradientLayer) {
@@ -57,6 +40,8 @@
 
 	return _backgroundGradientLayer;
 }
+
+#pragma mark - Layout Methods
 
 - (UIStatusBarStyle)preferredStatusBarStyle {
 	return UIStatusBarStyleLightContent;

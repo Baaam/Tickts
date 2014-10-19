@@ -11,11 +11,11 @@
 #import "BTINavigationBar.h"
 #import "UINavigationBar+Transparent.h"
 
-@interface BTINavigationViewController () <UINavigationBarDelegate>
+@interface BTINavigationController () <UINavigationBarDelegate>
 
 @end
 
-@implementation BTINavigationViewController
+@implementation BTINavigationController
 
 - (void)viewDidLoad {
 	[super viewDidLoad];
